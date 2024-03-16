@@ -1,6 +1,7 @@
 /*Fuentes*/
 @import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Angkor&family=Chau+Philomene+One:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /*PRINCIPAL*/
 .chau-philomene one-regular {
@@ -22,6 +23,13 @@
     font-style: normal;
 }
   
+/*NOTICIA*/
+.cousine-regular-italic {
+    font-family: "Cousine", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
 /*------------------------------------------------------------------------------------------------*/
 
 /*Animaciones*/
@@ -54,10 +62,11 @@
 
 /*------------------------------------------------------------------------------------------------*/
 
+/*MAIN*/
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(254, 249, 242);
+    background-color: rgb(227, 219, 208);
     overflow-x: hidden;
 }
 
@@ -73,6 +82,7 @@ nav {
     position: absolute;
     top: 0;
     left: 0;
+    background-color:#3e3e3e41;
 }
 
 #nav-container {
@@ -151,4 +161,56 @@ nav {
     width: 90%;
     object-fit: 90%;
     scroll-snap-align: center;
+}
+
+
+/*NOTICIAS*/
+
+#noticias {
+    -webkit-box-shadow:0px -8px 60px 42px rgba(62,66,66,0.71);
+    -moz-box-shadow: 0px -8px 60px 42px rgba(62,66,66,0.71);
+    box-shadow: 0px -8px 60px 42px rgba(62,66,66,0.71);
+}
+
+#contenedor-general-noticias {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+}
+
+.contenedor-noticia {
+    margin: 1%;
+}
+
+.img-noticia {
+    width: 800px;
+    grid-area: imagen;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 800px 300px;
+    grid-template-rows: 100px 300px 200px;
+    grid-template-areas: 
+    "titular imagen"
+    "noticia imagen"
+    "enlace imagen";
+    background-color: rgba(54, 53, 53, 0.188);
+    border-radius: 20px;
+    padding: 2%;
+}
+
+article h2 {
+    grid-area: titular;
+    font-family: "Libre Baskerville", serif;
+}
+
+article p {
+    grid-area: noticia;
+    font-family: "Cousine", monospace;
+}
+
+article a {
+    grid-area: enlace;
 }
