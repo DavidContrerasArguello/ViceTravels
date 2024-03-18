@@ -70,8 +70,12 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    font-family: "Libre Baskerville", serif;
+}
+
 #main {
-    background-image: url("https://rockstarintel.com/wp-content/uploads/2023/12/image001-1-no-logo.png");
+    background-image: url("../img/fondo.png");
     background-size: cover;
     height: 915px;
     padding: 1px;
@@ -79,7 +83,6 @@ body {
 
 nav {
     padding: 1px;
-    position: absolute;
     top: 0;
     left: 0;
     background-color:#3e3e3e41;
@@ -90,6 +93,20 @@ nav {
     padding: 0 10px 0 8px;
     display: flex;
     flex-direction: row;
+}
+
+#titular {
+    height: 300px;
+    width: 80%;
+}
+
+#titular h1 {
+    margin-top: 10%;
+    margin-left: 18%;
+    font-family: "Libre Baskerville", serif;
+    font-size: 2em;
+    color: rgb(226, 238, 244);
+    animation: vibrate-1 3s linear 3s infinite both;
 }
 
 .elemento-nav {
@@ -122,60 +139,6 @@ nav {
     height: 90px;
 }
 
-/*FOOTER*/
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 0;
-}
-  
-.footer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-  
-.footer-content {
-    display: flex;
-    flex-wrap: wrap;
-}
-  
-.footer-section {
-    flex: 1;
-    margin: 0 20px;
-}
-  
-.footer-section h3 {
-    margin-bottom: 15px;
-}
-  
-.footer-contact span {
-    display: block;
-    margin-bottom: 10px;
-}
-  
-.links ul {
-    list-style: none;
-    padding: 0;
-}
-  
-.links li {
-    margin-bottom: 10px;
-}
-
-.links a {
-    color: rgb(116, 121, 252);
-}
-
-.links a:hover {
-    color: rgb(239, 56, 102);
-}
-  
-.footer-bottom {
-    background-color: #3e3e3e;
-    text-align: center;
-    padding: 10px 0;
-} 
 #presentacion{
     margin-top: -40%;
     position: absolute;
@@ -183,6 +146,10 @@ footer {
 }
 #presentacion img{
     height: 20%;
+    width: 60%;
+    margin-left: 22%;
+}
+#presentacion-conocevc img{
     width: 60%;
     margin-left: 22%;
 }
@@ -341,3 +308,93 @@ width: 25%;
 #lugar3 p{
     font-size: 23px;
 }
+
+#tours{
+    padding: 2%;
+    text-align: center;
+}
+#tours p {
+    padding-left: 50%;
+    padding-right: 50%;
+}
+#tours img{
+    width: 30%;
+}
+#tours h1{
+    text-align: center;
+}
+#tour1{
+    background-color:rgb(170, 206, 188);
+    padding: 2%;
+    border-radius: 20px;
+}
+
+#tour2{
+    background-color: rgb(170, 206, 188);
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+
+#tour3{
+    background-color: rgb(170, 206, 188);
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+  
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+  
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+  
+.footer-section h3 {
+    margin-bottom: 15px;
+}
+  
+.footer-contact span {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.links li {
+    margin-bottom: 10px;
+}
+
+.links a {
+    color: rgb(116, 121, 252);
+}
+
+.links a:hover {
+    color: rgb(239, 56, 102);
+}
+  
+.footer-bottom {
+    background-color: #3e3e3e;
+    text-align: center;
+    padding: 10px 0;
+} 

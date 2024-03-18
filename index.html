@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ViceTravels | Official Vice City tourism Website</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/gta.js"></script>
 </head>
 <body>
+
+  <div id="popup" class="popup">
+    <h2>Introducir Nombre de Usuario</h2>
+    <label for="username">Nombre de Usuario:</label><br>
+    <input type="text" id="username" name="username"><br><br>
+    <button onclick="guardarUsuario()">Guardar</button>
+  </div>
+
     <div id="container">
         <section id="main">
 
@@ -18,6 +27,7 @@
                     <div class="elemento-nav" id="lugares-interes"> <a href="html/lugares.html">LUGARES DE INTERÉS</a> </div>
                 </div>
             </nav>
+
 
             <section id="titular">
                 <h1>EXPERIMENTA, CONOCE, DISFRUTA... <br> VICE CITY</h1>
