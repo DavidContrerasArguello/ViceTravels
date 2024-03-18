@@ -12,10 +12,10 @@
 
             <nav>
                 <div id="nav-container">
-                    <div class="elemento-nav" id="contenedor-logo-ancla">    <a href=""> <img src="img/logo-ViceTravels.png" alt="logo de la marca"> </a>   </div>
-                    <div class="elemento-nav" id="conoce-vicecity"> <a href="">CONOCE VICE CITY</a> </div>
-                    <div class="elemento-nav" id="organiza-viaje"> <a href="">ORGANIZAR</a> </div>
-                    <div class="elemento-nav" id="lugares-interes"> <a href="">LUGARES DE INTERÉS</a> </div>
+                    <div class="elemento-nav" id="contenedor-logo-ancla">    <a href="index.html"> <img src="img/logo-ViceTravels.png" alt="logo de la marca"> </a>   </div>
+                    <div class="elemento-nav" id="conoce-vicecity"> <a href="html/conocevc.html">CONOCE VICE CITY</a> </div>
+                    <div class="elemento-nav" id="organiza-viaje"> <a href="html/organizar.html">ORGANIZAR</a> </div>
+                    <div class="elemento-nav" id="lugares-interes"> <a href="html/lugares.html">LUGARES DE INTERÉS</a> </div>
                 </div>
             </nav>
 
@@ -40,8 +40,8 @@
                 <div class="contenedor-noticia">
                     <article id="noticia-ultima-hora">
                         <h2 class="titulo-articulo">Conducción temeraria en Miami</h2>
-                        <p>NOTICIA</p>
-                        <a href="">ENLACE</a>
+                        <p>Un conductor temerario se estrella con su coche al intentar dar la media vuelta en la autopista general de la ciudad mientras superaba la velocidad máxima por 30km/h. <br> <br> El conductor, que dio positivo en el test de Drogas y Alcohol, se enfrenta a una pena de 3 años en la cárcel y la retirada del carnet de conducir.</p>
+                        <a href="https://www.cibercuba.com/noticias/2023-12-12-u1-e207888-s27061-policia-detiene-conductor-temerario-tras-multiples-choques">ENLACE</a>
                         <img src="img/noticia-1.png" alt="noticia-1" class="img-noticia">
                     </article>
                 </div>
@@ -49,8 +49,9 @@
                 <div class="contenedor-noticia">
                     <article id="noticia-destacada">
                         <h2 class="titulo-articulo">Descontrol a motor</h2>
-                        <p>NOTICIA</p>
-                        <a href="">ENLACE</a>
+                        <p>Un grupo de matones en motos de cross aterrorizan la ciudad de Vice City. La policía no ha conseguido detenerlos por lo que siguen infundiendo el caos.
+                        <br><br> La policía recomienda que los ciudadanos se queden en sus casas hasta nuevo aviso.</p>
+                        <a href="https://www.local10.com/espanol/2022/10/25/la-policia-de-miami-publica-video-del-presunto-asesino-en-la-i-95/">ENLACE</a>
                         <img src="img/noticia-2.png" alt="" class="img-noticia">
                     </article>
                 </div>
@@ -58,14 +59,62 @@
                 <div class="contenedor-noticia">
                     <article id="noticia-aleatoria">
                         <h2 class="titulo-articulo">Delito escrito en tinta</h2>
-                        <p>NOTICIA</p>
-                        <a href="">ENLACE</a>
+                        <p> Un ladrón del estado de Leonida es capturado por la policía gracias a un tatuaje en el cuello que lo delató. <br> <br> El ladrón estaba siendo buscado por múltiples robos a bazares en todo el estado. <br> <br> Se espera que el ladrón ingrese en el centro penitenciario. </p>
+                        <a href="https://www.americateve.com/miami/arrestan-al-joker-apuntar-pistola-automovilistas-n953569">ENLACE</a>
                         <img src="img/noticia-3.png" alt="" class="img-noticia">
                     </article>
                 </div>
 
             </div>
         </section>
+
+        <section class="contact">
+            <div class="contact-general">
+              <h2>Contacto</h2>
+              <form id="contact-form" method="post" action="#">
+                <div class="form-group">
+                  <label for="name">Nombre:</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Correo Electrónico:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Mensaje:</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensaje</button>
+              </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer">
+              <div class="footer-content">
+                <div class="footer-section about">
+                  <h3>Acerca de Nosotros</h3>
+                  <p>Somos una empresa dedicada a ofrecerte las mejores experiencias turísticas en todo el mundo.</p>
+                  <div class="footer-contact">
+                    <span><i class="fas fa-phone"></i> +123456789</span>
+                    <span><i class="fas fa-envelope"></i> info@ejemplo.com</span>
+                  </div>
+                </div>
+                <div class="footer-section links">
+                  <h3>Enlaces Rápidos</h3>
+                  <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="html/conocevc.html">Conoce Vice City</a></li>
+                    <li><a href="html/organizar.html">Organiza tu viaje</a></li>
+                    <li><a href="html/lugares.html">Lugare de interés</a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              &copy; 2024 Vice Travels. Todos los derechos reservados.
+            </div>
+          </footer>
     </div>
 </body>
 </html>
