@@ -111,6 +111,16 @@ nav {
     border-radius: 5px;
     padding: 5px;
 }
+#contenedor-logo-ancla {
+    margin-right: 200px;
+    width: 150px;
+    height: 90px;
+}
+
+#contenedor-logo-ancla img{
+    width: 150px;
+    height: 90px;
+}
 
 /*FOOTER*/
 footer {
@@ -166,3 +176,168 @@ footer {
     text-align: center;
     padding: 10px 0;
 } 
+#presentacion{
+    margin-top: -40%;
+    position: absolute;
+    width: 100%;
+}
+#presentacion img{
+    height: 20%;
+    width: 60%;
+    margin-left: 22%;
+}
+#presentacion p{
+    font-size: 25px;
+    color: azure;
+    margin-left: 6%;
+    margin-top: -0%;
+}
+#vuelos{
+    padding: 2%;
+}
+#vuelos h1{
+    text-align: center;
+}
+#vuelo1{
+    background-color: peachpuff;
+    padding: 2%;
+    border-radius: 20px;
+}
+#vuelo1 p{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 40%;
+}
+#vuelo2{
+    background-color: peachpuff;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+#vuelo2 p{
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 40%;
+}
+#vuelo3{
+    background-color: peachpuff;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+#vuelo3 p{
+    position: absolute;
+    margin-top: -9%;
+    margin-left: 40%;
+}
+#hoteles{
+    padding: 2%;
+}
+#hoteles h1{
+    text-align: center;
+}
+#hotel1{
+    background-color: peachpuff;
+    padding: 2%;
+    border-radius: 20px;
+}
+#hotel1 img{
+width: 25%;
+}
+#hotel1 p{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 25%;
+    font-size: 28px;
+}
+#hotel1 h3{
+    position: absolute;
+    margin-left: 43%;
+    margin-top: -15%;
+}
+#hotel2{
+    background-color: peachpuff;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+#hotel2 p{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 25%;
+    font-size: 23px;
+}
+#hotel2 h3{
+    position: absolute;
+    margin-left: 43%;
+    margin-top: -15%;
+}
+#hotel2 img{
+    width: 25%;
+}
+#hotel3{
+    background-color: peachpuff;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+#hotel3 p{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 25%;
+    font-size: 26px;
+}
+#hotel3 h3{
+    position: absolute;
+    margin-left: 43%;
+    margin-top: -17%;
+}
+#hotel3 img{
+    width: 25%;
+}
+#presentacion-lugares{
+    margin-top: -40%;
+    position: absolute;
+    width: 100%;
+}
+#presentacion-lugares img{
+    height: 20%;
+    width: 60%;
+    margin-left: 20%;
+}
+#presentacion-lugares p{
+    font-size: 25px;
+    color: azure;
+    margin-left: 16%;
+    margin-top: 0%;
+}
+#lugar1{
+    padding: 2% 10% 2% 10%;
+}
+#lugar1 img{
+    width: 40%;
+    margin-left: 28%;
+}
+#lugar1 p{
+    font-size: 23px;
+}
+#lugar2{
+    padding: 2% 10% 2% 10%;
+}
+#lugar2 img{
+    width: 40%;
+    margin-left: 28%;
+}
+#lugar2 p{
+    font-size: 23px;
+}
+#lugar3{
+    padding: 2% 10% 2% 10%;
+}
+#lugar3 img{
+    width: 40%;
+    margin-left: 28%;
+}
+#lugar3 p{
+    font-size: 23px;
+}
